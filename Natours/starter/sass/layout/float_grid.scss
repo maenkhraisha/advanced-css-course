@@ -1,0 +1,26 @@
+.row{
+    max-width: $grid-width;
+    height: 50px;
+    background-color: greenyellow;
+    margin: 10px auto;
+    
+    &:nth-last-child(1){
+        // margin-bottom: $gutter-vertical;
+        border: 5px solid red;
+        height: 100px;
+    }
+
+    // @include clearfix;
+
+    // .col-1-of-2{
+    //     width: calc((100% - #{$gutter-horizontal}) / 2);
+    //     background-color: $col-color;
+    //     &:first-child{
+    //         float: left;
+    //     }
+    //     &:nth-child(2){
+    //         float: right;
+    //     }
+    // }
+    
+}
