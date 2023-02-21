@@ -11,6 +11,11 @@
 # production
 /build
 
+# style files
+/css/style.comp.css
+/css/style.concat.css
+/css/style.prefix.css
+
 # misc
 .DS_Store
 .env.local
